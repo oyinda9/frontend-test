@@ -127,7 +127,7 @@ export default function PDFUploader() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <div className="w-full max-w-3xl mx-auto p-6 border-2 border-white rounded-2xl bg-gray-900">
+      <div className="w-full max-w-3xl ml-[300px] mx-auto p-6 border-2 border-white rounded-2xl bg-gray-900">
         <h1 className="text-2xl font-bold mb-6 text-center text-white">PDF Viewer with Signature</h1>
         
         {!file ? (
