@@ -1,6 +1,6 @@
 'use client';
 import { useCallback, useState, useRef } from 'react';
-import { PDFDocument, rgb } from 'pdf-lib';
+import { PDFDocument } from 'pdf-lib';
 
 export default function PDFUploader() {
   const [file, setFile] = useState<File | null>(null);
