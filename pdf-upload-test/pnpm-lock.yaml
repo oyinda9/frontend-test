@@ -20,6 +20,9 @@ importers:
       fabric:
         specifier: ^6.6.1
         version: 6.6.1
+      next:
+        specifier: ^15.2.4
+        version: 15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       pdf-lib:
         specifier: ^1.17.1
         version: 1.17.1
@@ -63,9 +66,6 @@ importers:
       eslint-config-next:
         specifier: 15.2.4
         version: 15.2.4(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
-      next:
-        specifier: ^15.2.4
-        version: 15.2.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       tailwindcss:
         specifier: ^4.0.17
         version: 4.0.17
