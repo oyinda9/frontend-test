@@ -1,10 +1,24 @@
+Hello ,my name is sholanke precious oyindamola and 
+
+I've completed the PDF Signature Tool implementation with:
+
+- PDF upload via drag-and-drop
+- Canvas signature drawing
+- PDF export with embedded signature
+- Responsive design
+
+Repository: https://github.com/oyinda9/frontend-test
+Live Demo: [Add URL if deployed]
+
 Setup and Running Instructions
 Clone the repository
 git clone https://github.com/oyinda9/frontend-test.git
-cd pdf-signature-tool
+cd pdf-upload-test
 Install dependencies
 pnpm install
+
 # or
+
 npm install
 Run the development server
 pnpm run dev
@@ -14,13 +28,12 @@ Copy
 http://localhost:3000
 
 Libraries and Tools Used
-Library/Tool	Purpose	Why Chosen
-Next.js	React framework	Server-side rendering, excellent dev experience
-pdf-lib	PDF manipulation	Client-side PDF editing capabilities
-react-pdf	PDF rendering	Efficient PDF display in React
-Tailwind CSS	Styling	Rapid UI development with utility classes
-TypeScript	Type checking	Improved code quality and developer experience
-
+Library/Tool Purpose Why Chosen
+Next.js React framework Server-side rendering, excellent dev experience
+pdf-lib PDF manipulation Client-side PDF editing capabilities
+react-pdf PDF rendering Efficient PDF display in React
+Tailwind CSS Styling Rapid UI development with utility classes
+TypeScript Type checking Improved code quality and developer experience
 
 Challenges and Solutions
 Challenge: PDF.js worker loading issues
